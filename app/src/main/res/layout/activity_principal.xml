@@ -5,34 +5,54 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="br.edu.iff.pooa20172.trabalhooficina.activity.ActivityPrincipal">
+    tools:context="br.iff.pooa20172.oficinarealm.View.ActivityPrincipal">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Oficina Realm Peças"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:src="@drawable/ferramentas" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <Button
         android:id="@+id/bt_pecas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="100dp"
         android:text="Peças" />
-
-    <Button
-        android:id="@+id/bt_servicos"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Serviços" />
 
     <Button
         android:id="@+id/bt_proprietarios"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginTop="8dp"
         android:text="Proprietários" />
+
+    <Button
+        android:id="@+id/bt_servicos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Serviços" />
 
 
 </LinearLayout>
